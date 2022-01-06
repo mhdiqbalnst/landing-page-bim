@@ -1,0 +1,22 @@
+.c-welcome {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.img-top {
+  width: 100%;
+  height: 100%;
+  margin-top:56px;
+  background-image: url('../../images/web1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img-mid {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/web1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
