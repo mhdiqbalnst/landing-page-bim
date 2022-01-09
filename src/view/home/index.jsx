@@ -3,6 +3,8 @@ import { useState } from 'react';
 import Navbar from '../../components/navbar';
 import logo from '../../images/logopng2.png';
 import MyLocationOutlinedIcon from '@mui/icons-material/MyLocationOutlined';
+import FlightRoundedIcon from '@mui/icons-material/FlightRounded';
+import GroupRoundedIcon from '@mui/icons-material/GroupRounded';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slide from '@mui/material/Slide';
@@ -19,8 +21,8 @@ function scrollFunction() {
     setScroll(true);
     document.getElementById('c-info').style.display = "none";
     document.getElementById('c-home').style.overflowY = "hidden";
-    
     document.getElementById('p-home').style.overflowY = "hidden";
+    document.getElementById('border-scroll').style.boxShadow = " 0px 50px 25px white"
   } else {
     setScroll(false);
     document.getElementById('c-info').style.display = "inline-block";
@@ -46,7 +48,30 @@ function scrollFunction() {
         </div>
       </div>
       <div id='c-info' className='c-info'>
-        <div className='p-info'></div>
+        <div className='p-info'>
+
+          <div className='info-flight'>
+            <div className='img-flight'></div>
+            <div className='text'>
+              <p>14+</p>
+              <p>Penerbangan</p>
+            </div>
+          </div>
+          <div className='info-pax'>
+            <div className='img-pax'></div>
+            <div className='text'>
+              <p>500+</p>
+              <p>Penumpang</p>
+            </div>
+          </div>
+          <div className='info-partner'>
+            <div className='img-partner'></div>
+            <div className='text'>
+              <p>25+</p>
+              <p>Mitra Kami</p>
+            </div>
+          </div>
+        </div>
       </div>
       {scroll &&  
       <Slide direction="up" in={true} 
@@ -60,11 +85,13 @@ function scrollFunction() {
           height : "85vh",
           overflowY : "auto",
           borderTopLeftRadius : "15px",
-          borderTopRightRadius : "15px", 
-          paddingTop : "50px"
+          borderTopRightRadius : "15px",
         }}>
-            <div id="box-cards" className='box-card' onScroll={()=> scrollFunction()}>
-          <h6>Ruangan Tersedia</h6>
+          <div id="border-scroll" className='c-border-scroll'>
+            <div className='border-scroll'></div>
+          </div>
+          <div id="box-cards" className='box-card' onScroll={()=> scrollFunction()}>
+          <h6>Ruangan tersedia</h6>
           <div className='slide-card'>
             <div className='cards'></div>
             <div className='cards'></div>
@@ -76,7 +103,7 @@ function scrollFunction() {
             <div className='cards'></div>
           </div>
 
-          <h6>Papan Iklan Tersedia</h6>
+          <h6>Papan iklan tersedia</h6>
           <div className='slide-card'>
             <div className='cards'></div>
             <div className='cards'></div>
@@ -88,7 +115,7 @@ function scrollFunction() {
             <div className='cards'></div>
           </div>
 
-          <h6>Papan Iklan Tersedia</h6>
+          <h6>Papan iklan tersedia</h6>
           <div className='slide-card'>
             <div className='cards'></div>
             <div className='cards'></div>
@@ -103,9 +130,9 @@ function scrollFunction() {
       </div> 
       </Slide>
       }
-      {!scroll && <div id="p-home" className='p-home' >
+      {!scroll && <div id="p-home" className='p-home' style={{ marginTop : "40px" }}>
         <div id="box-cards" className='box-card' onScroll={()=> scrollFunction()}>
-          <h6>Ruangan Tersedia</h6>
+          <h6>Ruangan tersedia</h6>
           <div className='slide-card'>
             <div className='cards'></div>
             <div className='cards'></div>
@@ -117,7 +144,7 @@ function scrollFunction() {
             <div className='cards'></div>
           </div>
 
-          <h6>Papan Iklan Tersedia</h6>
+          <h6>Papan iklan tersedia</h6>
           <div className='slide-card'>
             <div className='cards'></div>
             <div className='cards'></div>
@@ -129,7 +156,7 @@ function scrollFunction() {
             <div className='cards'></div>
           </div>
 
-          <h6>Papan Iklan Tersedia</h6>
+          <h6>Papan iklan tersedia</h6>
           <div className='slide-card'>
             <div className='cards'></div>
             <div className='cards'></div>
