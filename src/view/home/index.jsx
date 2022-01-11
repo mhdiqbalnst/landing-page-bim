@@ -3,8 +3,6 @@ import { useState } from 'react';
 import Navbar from '../../components/navbar';
 import logo from '../../images/logopng2.png';
 import MyLocationOutlinedIcon from '@mui/icons-material/MyLocationOutlined';
-import FlightRoundedIcon from '@mui/icons-material/FlightRounded';
-import GroupRoundedIcon from '@mui/icons-material/GroupRounded';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slide from '@mui/material/Slide';
@@ -93,39 +91,82 @@ function scrollFunction() {
           <div id="box-cards" className='box-card' onScroll={()=> scrollFunction()}>
           <h6>Ruangan tersedia</h6>
           <div className='slide-card'>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
+            <div className='cards'>
+              <div className='img-card'></div>
+              <div className='text-card'>
+                <p>Ruang A01</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card2'></div>
+              <div className='text-card'>
+                <p>Ruang A02</p>
+                <p>Rp. 700.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card3'></div>
+              <div className='text-card'>
+                <p>Ruang A03</p>
+                <p>Rp. 600.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card4'></div>
+              <div className='text-card'>
+                <p>Ruang A04</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card5'></div>
+              <div className='text-card'>
+                <p>Ruang A05</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
           </div>
 
           <h6>Papan iklan tersedia</h6>
           <div className='slide-card'>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
+            <div className='cards'>
+              <div className='img-card-ads'></div>
+              <div className='text-card'>
+                <p>Ruang A01</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card-ads2'></div>
+              <div className='text-card'>
+                <p>Ruang A02</p>
+                <p>Rp. 700.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card-ads3'></div>
+              <div className='text-card'>
+                <p>Ruang A03</p>
+                <p>Rp. 600.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card-ads4'></div>
+              <div className='text-card'>
+                <p>Ruang A04</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card-ads5'></div>
+              <div className='text-card'>
+                <p>Ruang A05</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
           </div>
 
-          <h6>Papan iklan tersedia</h6>
-          <div className='slide-card'>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-          </div>
         </div> 
       </div> 
       </Slide>
@@ -134,38 +175,119 @@ function scrollFunction() {
         <div id="box-cards" className='box-card' onScroll={()=> scrollFunction()}>
           <h6>Ruangan tersedia</h6>
           <div className='slide-card'>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
+            <div className='cards'>
+              <div className='img-card'></div>
+              <div className='text-card'>
+                <p>Ruang A01</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card2'></div>
+              <div className='text-card'>
+                <p>Ruang A02</p>
+                <p>Rp. 700.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card3'></div>
+              <div className='text-card'>
+                <p>Ruang A03</p>
+                <p>Rp. 600.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card4'></div>
+              <div className='text-card'>
+                <p>Ruang A04</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card5'></div>
+              <div className='text-card'>
+                <p>Ruang A05</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
           </div>
 
           <h6>Papan iklan tersedia</h6>
           <div className='slide-card'>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
+            <div className='cards'>
+              <div className='img-card'></div>
+              <div className='text-card'>
+                <p>Ruang A01</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card2'></div>
+              <div className='text-card'>
+                <p>Ruang A02</p>
+                <p>Rp. 700.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card3'></div>
+              <div className='text-card'>
+                <p>Ruang A03</p>
+                <p>Rp. 600.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card4'></div>
+              <div className='text-card'>
+                <p>Ruang A04</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card5'></div>
+              <div className='text-card'>
+                <p>Ruang A05</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
           </div>
 
           <h6>Papan iklan tersedia</h6>
           <div className='slide-card'>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
-            <div className='cards'></div>
+            <div className='cards'>
+              <div className='img-card'></div>
+              <div className='text-card'>
+                <p>Ruang A01</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card2'></div>
+              <div className='text-card'>
+                <p>Ruang A02</p>
+                <p>Rp. 700.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card3'></div>
+              <div className='text-card'>
+                <p>Ruang A03</p>
+                <p>Rp. 600.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card4'></div>
+              <div className='text-card'>
+                <p>Ruang A04</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
+            <div className='cards'>
+              <div className='img-card5'></div>
+              <div className='text-card'>
+                <p>Ruang A05</p>
+                <p>Rp. 500.000 / bulan</p>
+              </div>
+            </div>
           </div>
         </div>  
       </div>}

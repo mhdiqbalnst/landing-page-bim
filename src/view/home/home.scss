@@ -255,16 +255,117 @@
           overflow-y: hidden;
           white-space: nowrap;
           padding: 10px;
-          margin-bottom: 50px;
+          margin-bottom: 100px;
 
           .cards {
             display: inline-block;
             width: 150px;
             height: 200px;
             margin-right: 15px;
+            padding: 5px;
             border-radius: 6px;
             background-color: white;
             box-shadow: 0 3px 6px #c3c1c1;
+
+            .img-card {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://cdn.futuready.com/artikel/media/2016/12/26104435/ide-usaha-dengan-menggunakan-ruang-kosong-di-rumah-854x540.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .img-card2 {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://i.pinimg.com/originals/f9/d6/6b/f9d66ba4b78d76ada7ef5bea23ddbfa9.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .img-card3 {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://www.itl.cat/pngfile/big/75-759801_kamar-kosong-pedalaman-floor-wood.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .img-card4 {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://i.pinimg.com/736x/0e/88/6a/0e886af87c3ee903894c29d52d6331c6.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .img-card5 {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://static5.depositphotos.com/1051059/503/i/600/depositphotos_5038453-stock-photo-white-empty-room.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .img-card-ads {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://www.wiklan.com/marketplace/limapuluh/191008092958-37866dde27.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .img-card-ads2 {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://st3.depositphotos.com/8254594/15765/i/600/depositphotos_157653846-stock-photo-multiple-blank-information-displays-in.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .img-card-ads3 {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://static5.depositphotos.com/1001925/527/i/600/depositphotos_5274567-stock-photo-empty-blank-billboard-over-bright.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .img-card-ads4 {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAXpPfsq22QWnlSSCzVbPoNTsbSEwTFcqlKA&usqp=CAU');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .img-card-ads5 {
+              width: 100%;
+              height: 75%;
+              border-radius: 6px;
+              background-image: url('https://sinergimedia.co.id/wp-content/uploads/2017/11/gambar-sewa-billboard.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .text-card {
+              width: 100%;
+              height: 25%;
+              font-size: 14px;
+              p {
+                margin: 2px;
+              }
+
+              p:nth-child(2){
+                font-weight: bold;
+              }
+            }
           }
         }
 
